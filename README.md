@@ -16,3 +16,6 @@ There are no real usages of this project, as it is simply a mock website. Howeve
 ## Features
 
 There are three reference links in the navbar at the top of the webpage. I have fixed them so that all three are functional.
+
+## Image of Webpage
+![website picture](./assets/images/website_picture.png)
