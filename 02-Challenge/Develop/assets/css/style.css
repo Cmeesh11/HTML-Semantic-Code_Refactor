@@ -7,36 +7,41 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* changed from class selector ".header" to tag selector "header" */
+/* added new lines for organization */
+header {
     padding: 20px;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* changed from class selector ".header" to tag selector "header" */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* changed from class selector ".header" to tag selector "header" */
+header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* changed from class selector ".header" to tag selector "header" */
+/* added new line for organization */
+header div {
     padding-top: 15px;
     margin-right: 20px;
+   
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/* changed from class selector ".header" to tag selector "header" */
+header div ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/* changed from class selector ".header" to tag selector "header" */
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,11 +54,12 @@ a {
 p {
     font-size: 16px;
 }
-
+/* added new lines for organization */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -68,18 +74,24 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* moved "display: inline-block" to start */
 .content {
-    width: 75%;
     display: inline-block;
+    width: 75%;
     margin-left: 20px;
 }
-
-    clear: both;
+/* rearranged properties */
+.benefits {
     float: right;
+    clear: both;
+
     width: 20%;
     height: 100%;
+    margin-right: 20px;
+    padding: 20px;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     background-color: #2589bd;
 }
 
@@ -130,30 +142,36 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* added new lines for organization */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* added new lines for organization */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* added new lines for organization */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -185,13 +203,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* changed class selecter ".footer" to tag selector "footer" */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* changed class selecter ".footer" to tag selector "footer" */
+footer h2 {
     font-size: 20px;
 }
