@@ -9,10 +9,10 @@ This project was to satisfy the feature requests of the following:
 - Making sure the header attributes fall in sequential order
 - Adding a concise, descriptive title
 
-##Usage
+## Usage
 
 There are no real usages of this project, as it is simply a mock website. However, changes can be viewed by looking at the comments that I've written in both the HTML and CSS files.
 
-##Features
+## Features
 
 There are three reference links in the navbar at the top of the webpage. I have fixed them so that all three are functional.
